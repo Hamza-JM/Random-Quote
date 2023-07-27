@@ -1,0 +1,66 @@
+.quotationMark {
+  width: 200px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: solid 1px;
+  border-radius: 20px;
+  background-color: rgb(250, 72, 72);
+}
+button {
+  border: solid 1px;
+  border-radius: 30px;
+  margin: 5px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.twitter {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: rgb(250, 72, 72);
+}
+.whatapp {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: rgb(250, 72, 72);
+}
+.lastLine {
+  display: flex;
+
+  align-items: center;
+  gap: 85%;
+}
+.whatapp:hover {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+}
+.twitter:hover {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+}
+h3 {
+  color: hsl(0, 55%, 13%);
+}
+h4 {
+  color: hsl(0, 35%, 23%);
+}
+.addQuote {
+  border: 1px solid;
+  height: 400px;
+  border-radius: 20px;
+}
